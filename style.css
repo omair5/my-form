@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.border-none,thead tr th{
+    border: none !important;
+}
+/* tbody tr td{
+    border: 2px solid rgb(206, 201, 201) !important;
+} */
+table{
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+}
+td{
+    width: 30%;
+    height: 60px;
+}
+tbody tr td input{
+    height: 100%;
+    width: 100%;
+}
+.for-heading{
+    border-bottom: 2px solid rgb(192, 186, 186);
+}
+.for-sign-in{
+    border: none;
+    color: whitesmoke;
+}
+.for-sign-in:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}

@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ASSIGNMENT 2</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS LINK FILE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container text-center">
+            <img src="logo.png" alt="logo">
+            <h1>STUDENT REGISTERATION FORM</h1>
+        </div>
+    </header>
+
+    <!-- SECTION -->
+    <section>
+        <div class="container">
+            <h5 class="py-4"><span class="for-heading">PERSONAL INFO</span></h5>
+            <form>
+                <div class="form-group row">
+                    <label for="fname" class="col-md-2 col-form-label">FIRST NAME</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="fname" placeholder="ENTER YOUR NAME">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="lname" class="col-md-2 col-form-label">LAST NAME</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="lname" placeholder="ENTER YOUR LAST NAME">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-md-2 col-form-label">EMAIL ID</label>
+                    <div class="col-md-5">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="phone" class="col-md-2 col-form-label">MOBILE NUMBER</label>
+                    <div class="col-md-5">
+                        <input type="tel" class="form-control" id="phone" placeholder="123-45-678"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="dob" class="col-md-2 col-form-label">DATE OF BIRTH</label>
+                    <div class="col-md-5">
+                        <input type="date" class="form-control" id="dob" placeholder="Month/Day/Year">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <p class="col-md-2">GENDER</p>
+                    <div class="col-md-5">
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="male">MALE
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="female">FEMALE
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class=col-md-2 for="comment">ADDRESS</label>
+                    <div class="col-md-5">
+                        <textarea class="form-control" rows="3" id="comment"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="country" class="col-md-2 col-form-label">COUNTRY</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="country" placeholder="ENTER YOUR COUNTRY">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="province" class="col-md-2 col-form-label">PROVINCE</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="province" placeholder="ENTER YOUR PROVINCE">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="city" class="col-md-2 col-form-label">CITY</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="city" placeholder="ENTER YOUR CITY">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="pincode" class="col-md-2 col-form-label">PIN CODE</label>
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="pincode" placeholder="ENTER YOUR PIN">
+                    </div>
+                </div>
+
+                <!-- TABLE -->
+                <h5 class="pt-5"><span class="for-heading">QUALIFIATION</span></h5>
+                <table class="table">
+                    <thead>
+                        <tr class="text-center">
+                            <th scope="col"></th>
+                            <th scope="col">BOARD</th>
+                            <th scope="col">PERCENTAGE/GPA</th>
+                            <th scope="col">YEAR OF PASSING</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class='border-none bg-light' scope="row">MATRIC</th>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th class='border-none' scope="row">INTERMEDIATE</th>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th class='border-none' scope="row">GRADUATION</th>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th class='border-none' scope="row">MASTER</th>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                            <td class='border-none'><input type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="row">
+                    <h5 class="col-md-3 "><span class="for-heading">COURSES WE OFFERING</span></h5>
+                    <div class="col-md-6">
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Web Development
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label" for="defaultCheck2">
+                                Python
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck3">
+                                Graphic Designing
+                            </label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                            <label class="form-check-label" for="defaultCheck4">
+                                CCNA
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- SUBMIT BUTTON  -->
+                <div class="pt-5">
+                    <div class="form-group row ">
+                        <div class="col-md-6 d-flex justify-content-end">
+                            <button type="submit" class="for-sign-in btn btn-primary "><a class="for-sign-in" href="thankyou.html" >SIGN IN</a></button>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-start">
+                            <button type="reset" class="btn btn-primary">RESET</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
